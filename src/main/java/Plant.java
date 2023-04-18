@@ -3,7 +3,7 @@ public abstract class Plant implements Comparable<Plant>{
     String family;
     String name;
 
-    public Plant(double h, String f, String n){
+    protected Plant(double h, String f, String n){
         height = h;
         family = f;
         name = n;
