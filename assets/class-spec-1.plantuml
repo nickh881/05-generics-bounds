@@ -1,13 +1,13 @@
 @startuml
 package java.lang {
     
-    interface Comparable<T> {
+    interface ohm.softa.a05.model.Comparable<T> {
         +compareTo(other: T): int
     }
 }
 
 package ohm.softa.a05.model {
-        +enum PlantColor {
+        +enum ohm.softa.a05.model.PlantColor {
             GREEN,
             YELLOW,
             RED,
@@ -15,7 +15,7 @@ package ohm.softa.a05.model {
             ORANGE
         }
 
-        +abstract class Plant implements Comparable {
+        +abstract class ohm.softa.a05.model.Plant implements ohm.softa.a05.model.Comparable {
             -height: double
             -family: String
             -name: String
@@ -23,13 +23,13 @@ package ohm.softa.a05.model {
             +getHeight(): double
             +getFamily(): String
             +getName(): String
-            +{abstract} getColor(): PlantColor
+            +{abstract} getColor(): ohm.softa.a05.model.PlantColor
         }
 
-        +class Flower extends Plant {
+        +class ohm.softa.a05.model.Flower extends ohm.softa.a05.model.Plant {
         }
 
-        +class Shrub extends Plant{
+        +class ohm.softa.a05.model.Shrub extends ohm.softa.a05.model.Plant{
         }
     }
 @enduml

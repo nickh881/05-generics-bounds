@@ -36,7 +36,7 @@ Implement a `PlantBed` which manages a list of plants (use `SimpleList<T>`).
 
 ![PlantBed spec](./assets/class-spec-2.svg)
 
-A `PlantBed` may contain any subclass of `Plant` but nothing else!
+A `PlantBed` may contain any subclass of `ohm.softa.a05.model.Plant` but nothing else!
 Use appropriate bounds when declaring the generic class.
 
 _Remarks:_ The method `getPlantsByColor` is very easy to implement if you think of the `filter` method of the `SimpleList`!

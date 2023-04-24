@@ -6,7 +6,7 @@ package ohm.softa.a05 {
 
         +add(plant: T)
         +size(): int
-        +getPlantsByColor(color: PlantColor): SimpleList<T>
+        +getPlantsByColor(color: ohm.softa.a05.model.PlantColor): SimpleList<T>
     }
 }
 @enduml
